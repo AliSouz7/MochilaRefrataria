@@ -1,19 +1,30 @@
-🧠 Mochila Fracionária - Algoritmo Guloso em Java (POO)
-Este projeto implementa a solução do Problema da Mochila Fracionária usando o paradigma guloso com Programação Orientada a Objetos (POO) em Java. O algoritmo maximiza o valor total dos itens que podem ser transportados sem ultrapassar a capacidade da mochila.
+# 🧠 Mochila Fracionária - Algoritmo Guloso em Java (POO)
 
-💼 Sobre o Problema
-Dado: Considere o Problema da Mochila Fracionária, onde:
+Este projeto implementa a solução do **Problema da Mochila Fracionária** usando o **paradigma guloso** com **Programação Orientada a Objetos (POO)** em Java. O algoritmo maximiza o valor total dos itens que podem ser transportados sem ultrapassar a capacidade da mochila.
 
-É dada uma mochila com capacidade máxima W
-Há um conjunto de n itens
-Cada item i possui:
-um peso pᵢ
-um valor vᵢ
-Objetivo: Selecionar itens (ou frações deles) de modo que:
+---
 
-O peso total não ultrapasse W
-O valor total seja máximo
-🧩 Estrutura do Projeto
+## 💼 Sobre o Problema
+
+Dado:
+Considere o **Problema da Mochila Fracionária**, onde:
+
+- É dada uma mochila com **capacidade máxima W**
+- Há um conjunto de **n itens**
+- Cada item `i` possui:
+    - um **peso** `pᵢ`
+    - um **valor** `vᵢ`
+
+Objetivo:
+Selecionar itens (ou frações deles) de modo que:
+- O peso total não ultrapasse `W`
+- O valor total seja **máximo**
+
+---
+
+## 🧩 Estrutura do Projeto
+
+```bash
 .
 ├── Item.java                # Classe que representa um item com valor e peso
 ├── Main.java               # Classe principal com entrada via Scanner
@@ -37,17 +48,17 @@ java Main
 Digite a capacidade da mochila: 60
 Digite o número de itens: 4
 Item 1:
-Valor: 80
-Peso: 10
+  Valor: 80
+  Peso: 10
 Item 2:
-Valor: 120
-Peso: 20
+  Valor: 120
+  Peso: 20
 Item 3:
-Valor: 180
-Peso: 30
+  Valor: 180
+  Peso: 30
 Item 4:
-Valor: 160
-Peso: 40
+  Valor: 160
+  Peso: 40
 
 Valor máximo que pode ser carregado: 380.0
 
