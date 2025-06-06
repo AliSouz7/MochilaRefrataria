@@ -7,8 +7,13 @@ Este projeto implementa a solução do **Problema da Mochila Fracionária** usan
 ## 💼 Sobre o Problema
 
 Dado:
-- Uma mochila com capacidade máxima `W`
-- Um conjunto de `n` itens, cada um com um **valor** e um **peso**
+Considere o **Problema da Mochila Fracionária**, onde:
+
+- É dada uma mochila com **capacidade máxima W**
+- Há um conjunto de **n itens**
+- Cada item `i` possui:
+    - um **peso** `pᵢ`
+    - um **valor** `vᵢ`
 
 Objetivo:
 Selecionar itens (ou frações deles) de modo que:
